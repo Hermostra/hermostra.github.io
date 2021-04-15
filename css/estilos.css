@@ -62,7 +62,7 @@ p {
 	top: 0px;
 	bottom: 0px;
 	right: 0px;
-	left: 257px;
+	left: 70px;
 }
 
 .Menu li {
@@ -85,7 +85,7 @@ p {
 	top: 0px;
 	bottom: 0px;
 	right: 0px;
-	left: 0px;
+	left: 50px;
 	text-align: justify;
 	border-radius:10px;
 }
@@ -113,7 +113,7 @@ form {
 	width:50%;
 	border:1px solid #ccc;
 	padding:5%;
-	margin:0px 130px;
+	margin:0px 150px;
 }
 
 label {
@@ -124,7 +124,7 @@ label {
 
 .cuatro {
 	position: relative;
-	left: 239px;
+	left: 50px;
 	border-radius:10px;
 }
 
