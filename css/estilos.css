@@ -145,12 +145,10 @@ a:hover {
 }
 
 form {
-	width: 410px;
 	background:#433053;
 	opacity:0.8;
 	color: #FFF;
 	margin:20px 50px;
-	border:7px solid #0A7B4C;
 	padding: 50px 240px;
 	border-radius:10px;
 	position:relative;
@@ -158,6 +156,10 @@ form {
 	bottom: 0px;
 	right: 0px;
 	left: 0px;
+	width: 390px;
+	border:1px solid #ccc;
+	padding: 0px 250px;
+	border:7px solid #0A7B4C;
 }
 
 label {
