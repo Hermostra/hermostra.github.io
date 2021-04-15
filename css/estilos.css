@@ -1,10 +1,8 @@
 body {
 	background-image:url(/Imagenes/fondo.jpg);
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-size:100% 100%;
+	background-repeat:repeat-y;
+	background-position:center 0;
 	color:#FFF;
-	width:100%;
 }
 
 h1 {
