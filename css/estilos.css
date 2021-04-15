@@ -1,0 +1,167 @@
+body {
+	background-image:url(C:/Users/admin/Desktop/HTML/Ejercicio%20con%20CSS%20-%20Hermostra/Imagenes/fondo.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100% 100%;
+	color:#FFF;
+	width:100%;
+}
+
+h1 {
+	color:#FFF;
+}
+
+div {
+	width:58%;
+	background:#6603AF;
+	opacity:0.8;
+	color: #FFF;
+	margin:20px 50px;
+	padding:15px;
+	border:7px solid #00C899;
+}
+
+p {
+	color:#FFF;
+	font-family: 'Times New Roman';
+}
+
+.Logo {
+	height:17%;
+	width:auto;
+	display:inline-block;
+	position:relative;
+	left: 80px;
+}
+
+.Icon {
+	height:110px;
+	width:auto;
+	border-radius:50%;
+	position:relative;
+	left: 35px;
+	bottom: 5px;
+}
+
+.Icon2 {
+	height:110px;
+	width:auto;
+	border-radius:50%;
+	position:relative;
+	left: 150px;
+	bottom: 5px;
+}
+
+.Menu {
+	width:58%;
+	background:#6603AF;
+	opacity:0.8;
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 257px;
+}
+
+.Menu li {
+	display:inline-block;
+}
+
+.Menu li a {
+	padding: 10px 20px;
+	display:inline-block;
+	color:white;
+}
+
+.Menu li a:hover {
+	background:#00C899;
+	color:black;
+}
+
+.caja {
+	position:relative;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 240px;
+	text-align: justify;
+	border-radius:10px;
+}
+
+a {
+	text-decoration:none;
+}
+
+a:link {
+	color:red;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+.Title {
+	color: #FFF;
+	font-size: 80px;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+form {
+	width:50%;
+	border:1px solid #ccc;
+	padding:5%;
+	margin:0px 130px;
+}
+
+label {
+	font-size:15px;
+	display:block;
+	width:100%;
+}
+
+.cuatro {
+	position: relative;
+	left: 239px;
+	border-radius:10px;
+}
+
+input, textarea {
+	margin-bottom:20px;
+	width:100%;
+	padding:10px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	border:#FFF
+}
+
+input:focus, textarea:focus {
+	border:1px solid #00C899
+}
+
+textarea {
+	resize:vertical;
+	max-height:200px;
+	min-height:50px;
+}
+
+input [type="submit"] {
+	margin-bottom:0;
+	background:#035CAF;
+	color:#FFF;
+	border:none;
+}
+
+input[type="submit"]:hover {
+	background:#328DE2;
+	cursor:pointer;
+}
+
+/* Asi se pueden dejar anotaciones que no influyen en el armado de la web */
+.red {
+	color:red;
+}
