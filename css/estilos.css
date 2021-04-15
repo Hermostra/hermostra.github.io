@@ -72,7 +72,7 @@ p {
 .Menu li a {
 	padding: 10px 20px;
 	display:inline-block;
-	color:white;
+	color:#FFF;
 }
 
 .Menu li a:hover {
@@ -85,7 +85,7 @@ p {
 	top: 0px;
 	bottom: 0px;
 	right: 0px;
-	left: 100px;
+	left: 0px;
 	text-align: justify;
 	border-radius:10px;
 }
