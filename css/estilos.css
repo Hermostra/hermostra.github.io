@@ -2,7 +2,8 @@ body {
 	background-image:url(/Imagenes/fondo.jpg);
 	background-repeat:repeat-y;
 	background-position:center 0;
-	color:#FFF;
+	background-attachment: fixed;
+	height:100%;
 }
 
 h1 {
@@ -10,7 +11,7 @@ h1 {
 }
 
 div {
-	width:58%;
+	width: 860px;
 	background:#6603AF;
 	opacity:0.8;
 	color: #FFF;
@@ -25,7 +26,7 @@ p {
 }
 
 .Logo {
-	height:17%;
+	height: 120px;
 	width:auto;
 	display:inline-block;
 	position:relative;
@@ -51,7 +52,7 @@ p {
 }
 
 .Menu {
-	width:58%;
+	width:965px;
 	background:#6603AF;
 	opacity:0.8;
 	list-style:none;
@@ -130,7 +131,7 @@ label {
 input, textarea {
 	margin-bottom:20px;
 	width:100%;
-	padding:10px;
+	padding:15px;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
@@ -156,7 +157,17 @@ input [type="submit"] {
 
 input[type="submit"]:hover {
 	background:#328DE2;
+	color:#FFF;
 	cursor:pointer;
+}
+
+footer {
+	width: 860px;
+	background:black;
+	background-attachment: fixed;
+	position:relative;
+	left: 310px;
+	text-align: center;
 }
 
 /* Asi se pueden dejar anotaciones que no influyen en el armado de la web */
