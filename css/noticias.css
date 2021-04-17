@@ -1,0 +1,142 @@
+body {
+	background-image: url("../Imagenes/fondovioletadesv.png");
+	background-color:#000;
+	background-repeat:no-repeat;
+	background-position: 270px 50px;
+	background-attachment:fixed;
+	background-size: 1000px;
+}
+
+div h1 {
+    background: #000;
+    font-family:serif;
+    color:#CCC;
+    opacity: 0.8;
+    border-radius: 15px;
+    display:inline-block;
+    position:relative;
+    left: 650px;
+    top: 160px;
+    padding: 25px 15px;
+    margin: 25px 15px;
+}
+
+.caja {
+    opacity: 0.8;
+    padding: 0px 15px;
+    margin: 0px 15px;  
+
+}
+
+.menu {
+	display:inline-block;
+	height:0px;
+	width: 1000px;
+	margin:auto;
+	padding:auto;
+	position:relative;
+	top: 30px;
+	bottom: 0px;
+	right: 0px;
+	left: 15px;
+}
+
+.menu li:hover > {
+	display: block;
+}
+
+.Menu li {
+	display:inline-block;
+}
+
+nav li a {
+	background-color: #000;
+	font-family:serif;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration:none;
+	width:120px;
+	padding: -300px;
+	display:inline-block;
+	position:relative;
+	left: 200px;
+	bottom: 0px;
+	color:#CCC;
+	text-align: center;
+}
+
+
+nav li a:hover {
+	color:grey;
+}
+
+.logo:hover {
+	opacity:0.8;
+}
+
+a :hover {
+	cursor:pointer;
+}
+
+.logo {
+	width: 300px;
+	position:relative;
+	top: 80px;
+	left: 470px;
+}
+
+.social {
+	display:inline-block;
+	position:relative;
+	top: 342px;
+	padding:0px 0px;
+	left: 665px;
+}
+
+.facebook {
+	display:inline-block;
+	border-radius:60%;
+	position: relative;
+	margin:0px 0px;
+	margin-left: 15px;
+}
+
+.youtube {
+	display:inline-block;
+	border-radius:60%;
+	position: relative;
+	margin:0px 0px;
+	margin-left: 15px;
+}
+
+.instagram {
+	display:inline-block;
+	border-radius:60%;
+	position: relative;
+	margin:0px 0px;
+	margin-left: 15px;
+}
+
+a :hover {
+	cursor: pointer;
+}
+
+.facebook:hover {
+	opacity: 0.8;
+}
+
+.youtube:hover {
+	opacity: 0.8;
+}
+
+.instagram:hover {
+	opacity: 0.8;
+}
+
+footer {
+	display:inline-block;
+	position:relative;
+	color:#CCC;
+	top: 362px;
+	left: 430px;
+}

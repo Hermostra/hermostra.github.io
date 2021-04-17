@@ -2,14 +2,129 @@ body {
 	background-image: url("../Imagenes/fondoenvivo4.png");
 	background-color: black;
 	background-repeat:no-repeat;
-	background-position: 270px 200px;
+	background-position: 270px 150px;
 	background-attachment:fixed;
 	background-size: 1000px;
 }
 
-.logo {
+.menu {
+	display:inline-block;
+	height:0px;
+	width: 1000px;
+	margin:auto;
+	padding:auto;
 	position:relative;
-    display: block;
+	top: 30px;
+	bottom: 0px;
+	right: 0px;
+	left: 15px;
+}
+
+.menu li:hover > {
+	display: block;
+}
+
+.Menu li {
+	display:inline-block;
+}
+
+nav li a {
+	background-color: #000;
+	font-family:serif;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration:none;
+	width:120px;
+	padding: -300px;
+	display:inline-block;
+	position:relative;
+	left: 200px;
+	bottom: 0px;
+	color:#CCC;
+	text-align: center;
+}
+
+
+nav li a:hover {
+	color:grey;
+}
+
+.logo:hover {
+	opacity:0.8;
+}
+
+a :hover {
+	cursor:pointer;
+}
+
+.logo {
+	width: 300px;
+	position:relative;
 	top: 80px;
-	left: 450px;
+	left: 470px;
+}
+
+.video {
+	position:relative;
+	left:475px;
+	top: 105px;
+	border-radius: 15px;
+	border: 2px solid red;
+}
+
+
+.social {
+	display:inline-block;
+	position:relative;
+	top: 201px;
+	padding:0px 0px;
+	left: 97px;
+}
+
+.facebook {
+	display:inline-block;
+	border-radius:60%;
+	position: relative;
+	margin:0px 0px;
+	margin-left: 15px;
+}
+
+.youtube {
+	display:inline-block;
+	border-radius:60%;
+	position: relative;
+	margin:0px 0px;
+	margin-left: 15px;
+}
+
+.instagram {
+	display:inline-block;
+	border-radius:60%;
+	position: relative;
+	margin:0px 0px;
+	margin-left: 15px;
+}
+
+a :hover {
+	cursor: pointer;
+}
+
+.facebook:hover {
+	opacity: 0.8;
+}
+
+.youtube:hover {
+	opacity: 0.8;
+}
+
+.instagram:hover {
+	opacity: 0.8;
+}
+
+footer {
+	display:inline-block;
+	position:relative;
+	color:#CCC;
+	top: 221px;
+	left: -138px;
 }
