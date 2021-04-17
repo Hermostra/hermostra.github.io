@@ -1,0 +1,24 @@
+body {
+	background-color:#100819;
+	background-repeat:repeat-y;
+	background-position:center 0;
+	background-attachment: fixed;
+	height:100%;
+}
+
+.nombre {
+    width: 860px;
+	background:#433053;
+	opacity:0.8;
+	color: #FFF;
+	margin:20px 50px;
+	padding:15px;
+	border:7px solid #0A7B4C;
+	position:relative;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 50px;
+	text-align: justify;
+	border-radius:10px;
+}

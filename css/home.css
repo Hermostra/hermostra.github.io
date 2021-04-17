@@ -1,0 +1,15 @@
+body {
+	background-image: url("../Imagenes/fondoenvivo4.png");
+	background-color: black;
+	background-repeat:no-repeat;
+	background-position: 270px 200px;
+	background-attachment:fixed;
+	background-size: 1000px;
+}
+
+.logo {
+	position:relative;
+    display: block;
+	top: 80px;
+	left: 450px;
+}

@@ -1,0 +1,220 @@
+body {
+	background-color:black;
+	background-repeat:repeat-y;
+	background-position:center 0;
+	background-attachment: fixed;
+	height:100%;
+}
+
+.foto {
+	height: 400px;
+	width:auto;
+	position:relative;
+	bottom: 9px;
+	left: -160px;
+}
+
+h1 {
+	color:#FFF;
+}
+
+a .social	{
+	border-radius:60px;
+	position:relative;
+	top: -450px;
+}
+
+a .facebook {
+	position:relative;
+	left:1050px;
+	border:7px solid #0A7B4C;
+}
+
+a .youtube {
+	position:relative;
+	left: 1100px;
+	border:7px solid #0A7B4C;
+}
+
+a .instagram {
+	position:relative;
+	left: 1150px;
+	border:7px solid #0A7B4C;
+}
+
+p {
+	color:#FFF;
+	font-family: 'Times New Roman';
+}
+
+.Logo {
+	height: 120px;
+	width:auto;
+	display:inline-block;
+	position:relative;
+	left: 80px;
+}
+
+.Icon {
+	height:110px;
+	width:auto;
+	border-radius:50%;
+	position:relative;
+	left: 35px;
+	bottom: 5px;
+}
+
+.Icon2 {
+	height:110px;
+	width:auto;
+	border-radius:50%;
+	position:relative;
+	left: 150px;
+	bottom: 5px;
+}
+
+.Menu {
+	width:965px;
+	background:#433053;
+	opacity:0.8;
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 70px;
+}
+
+.Menu li {
+	display:inline-block;
+	;
+}
+
+.Menu li a {
+	width:100px;
+	padding: 10px 20px;
+	display:inline-block;
+	position:relative;
+	left: 190px;
+	color:white;
+	text-align: center;
+}
+
+.Menu li a:hover {
+	background:#00C899;
+	color:black;
+}
+
+.caja {
+	width: 860px;
+	background:#433053;
+	opacity:0.8;
+	color: #FFF;
+	margin:20px 50px;
+	padding:15px;
+	border:7px solid #0A7B4C;
+	position:relative;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 50px;
+	text-align: justify;
+	border-radius:10px;
+}
+
+a {
+	text-decoration:none;
+}
+
+a:link {
+	color:red;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+.Title {
+	color: #FFF;
+	font-size: 80px;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+form {
+	background:#433053;
+	opacity:0.8;
+	color: #FFF;
+	margin:20px 50px;
+	border-radius:10px;
+	position:relative;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	width: 390px;
+	border:1px solid #ccc;
+	padding: 0px 250px;
+	border:7px solid #0A7B4C;
+}
+
+label {
+	font-size:15px;
+	display:block;
+}
+
+.cuatro {
+	position: relative;
+	left: 50px;
+	border-radius:10px;
+}
+
+input, textarea {
+	margin-bottom:20px;
+	width:400px;
+	padding:15px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	border:#FFF
+	
+}
+
+input:focus, textarea:focus {
+	border:1px solid #00C899
+}
+
+textarea {
+	resize:vertical;
+	max-height:200px;
+	min-height:50px;
+}
+
+input [type="submit"] {
+	margin-bottom:0;
+	background:#035CAF;
+	color:#FFF;
+	border:none;
+}
+
+input[type="submit"]:hover {
+	background:#328DE2;
+	color:#FFF;
+	cursor:pointer;
+}
+
+footer {
+	width: 860px;
+	background:black;
+	background-attachment: fixed;
+	position:relative;
+	left: 310px;
+	text-align: center;
+}
+
+/* Asi se pueden dejar anotaciones que no influyen en el armado de la web */
+.red {
+	color:red;
+}
