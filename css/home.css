@@ -2,22 +2,17 @@ body {
 	background-image: url("../Imagenes/fondoenvivo4.png");
 	background-color: black;
 	background-repeat:no-repeat;
-	background-position: 270px 150px;
+	background-position: center 35px;
 	background-attachment:fixed;
-	background-size: 1000px;
+	background-size: 860px;
 }
 
 .menu {
-	display:inline-block;
-	height:0px;
 	width: 1000px;
 	margin:auto;
 	padding:auto;
 	position:relative;
-	top: 30px;
-	bottom: 0px;
-	right: 0px;
-	left: 15px;
+	transform: translate(-23%, 20px);
 }
 
 .menu li:hover > {
@@ -59,26 +54,26 @@ a :hover {
 
 .logo {
 	width: 300px;
-	position:relative;
-	top: 80px;
-	left: 470px;
+	margin: auto;
+	position: center;
+	transform: translate(-45%, 37px);
 }
 
 .video {
-	position:relative;
-	left:475px;
-	top: 105px;
+	width: 50%;
+	margin: auto;
+	position: center;
+	transform: translate(50%, 30px);
+	border-color: solid red;
 	border-radius: 15px;
-	border: 2px solid red;
 }
 
 
 .social {
-	display:inline-block;
-	position:relative;
-	top: 201px;
-	padding:0px 0px;
-	left: 97px;
+	width: 300px;
+	margin: auto;
+	position: relative;
+	transform: translate(15%, 43px);
 }
 
 .facebook {
@@ -119,12 +114,4 @@ a :hover {
 
 .instagram:hover {
 	opacity: 0.8;
-}
-
-footer {
-	display:inline-block;
-	position:relative;
-	color:#CCC;
-	top: 221px;
-	left: -138px;
 }
