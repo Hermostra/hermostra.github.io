@@ -2,16 +2,16 @@ body {
 	background-image: url("../Imagenes/fondoenvivo5.png");
 	background-color:black;
 	background-repeat:no-repeat;
-	background-position: 270px 50px;
+	background-position: center 35px;
 	background-attachment:fixed;
-	background-size: 1000px;
+	background-size: 860px;
 }
 
 .logo {
 	width: 300px;
-	position:relative;
-	top: 80px;
-	left: 470px;
+	margin: auto;
+	position: relative;
+	transform: translate(-45%, 60px);
 }
 
 .logo:hover {
@@ -63,18 +63,17 @@ nav li a:hover {
 
 
 .social {
-	display:inline-block;
-	position:relative;
-	top: 480px;
-	padding:0px 0px;
-	left: 665px;
+	width: 300px;
+	margin: auto;
+	position: relative;
+	transform: translate(20%, 380px);
 }
 
 .facebook {
 	display:inline-block;
 	border-radius:60%;
+	margin: auto;
 	position: relative;
-	margin:0px 0px;
 	margin-left: 15px;
 }
 
@@ -82,7 +81,7 @@ nav li a:hover {
 	display:inline-block;
 	border-radius:60%;
 	position: relative;
-	margin:0px 0px;
+	margin:auto;
 	margin-left: 15px;
 }
 
@@ -90,7 +89,7 @@ nav li a:hover {
 	display:inline-block;
 	border-radius:60%;
 	position: relative;
-	margin:0px 0px;
+	margin:auto;
 	margin-left: 15px;
 }
 
@@ -111,10 +110,3 @@ a :hover {
 	opacity: 0.8;
 }
 
-footer {
-	display:inline-block;
-	position:relative;
-	color:#CCC;
-	top: 500px;
-	left: 430px;
-}
