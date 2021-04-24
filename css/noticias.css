@@ -2,9 +2,9 @@ body {
 	background-image: url("../Imagenes/fondovioletadesv.png");
 	background-color:#000;
 	background-repeat:no-repeat;
-	background-position: 270px 50px;
+	background-position: center 35px;
 	background-attachment:fixed;
-	background-size: 1000px;
+	background-size: 860px;
 }
 
 div h1 {
@@ -14,11 +14,9 @@ div h1 {
     opacity: 0.8;
     border-radius: 15px;
     display:inline-block;
-    position:relative;
-    left: 650px;
-    top: 160px;
+    position:fixed;
+	transform: translate(233%, 65px);
     padding: 25px 15px;
-    margin: 25px 15px;
 }
 
 .caja {
@@ -29,16 +27,11 @@ div h1 {
 }
 
 .menu {
-	display:inline-block;
-	height:0px;
 	width: 1000px;
 	margin:auto;
 	padding:auto;
 	position:relative;
-	top: 30px;
-	bottom: 0px;
-	right: 0px;
-	left: 15px;
+	transform: translate(-22%, 20px);
 }
 
 .menu li:hover > {
@@ -80,17 +73,17 @@ a :hover {
 
 .logo {
 	width: 300px;
-	position:relative;
-	top: 80px;
-	left: 470px;
+	margin: auto;
+	position: center;
+	transform: translate(-50%, 37px);
 }
 
+
 .social {
-	display:inline-block;
-	position:relative;
-	top: 342px;
-	padding:0px 0px;
-	left: 665px;
+	width: 300px;
+	margin: auto;
+	position: relative;
+	transform: translate(20%, 362px);
 }
 
 .facebook {
@@ -133,10 +126,3 @@ a :hover {
 	opacity: 0.8;
 }
 
-footer {
-	display:inline-block;
-	position:relative;
-	color:#CCC;
-	top: 362px;
-	left: 430px;
-}
