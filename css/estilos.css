@@ -1,112 +1,107 @@
 body {
-	background-image: url("../Imagenes/fondoenvivo5.png");
-	background-color:black;
-	background-repeat:no-repeat;
-	background-position: center 35px;
-	background-attachment:fixed;
-	background-size: 860px;
+  background-image: url("../Imagenes/fondoenvivo5-min.png");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center 35px;
+  background-attachment: fixed;
+  background-size: 860px;
 }
 
 .logo {
-	width: 300px;
-	margin: auto;
-	position: relative;
-	transform: translate(-50%, 60px);
+  width: 300px;
+  margin: auto;
+  position: relative;
+  transform: translate(-50%, 60px);
 }
 
 .logo:hover {
-	opacity:0.8;
+  opacity: 0.8;
 }
 
-
 .menu {
-	display:inline-block;
-	height:0px;
-	width: 1000px;
-	margin:auto;
-	padding:auto;
-	position:relative;
-	top: 30px;
-	bottom: 0px;
-	right: 0px;
-	left: 15px;
+  display: inline-block;
+  height: 0px;
+  width: 1000px;
+  margin: auto;
+  padding: auto;
+  position: relative;
+  top: 30px;
+  bottom: 0px;
+  right: 0px;
+  left: 15px;
 }
 
 .menu li:hover > {
-	display: block;
+  display: block;
 }
 
 .Menu li {
-	display:inline-block;
+  display: inline-block;
 }
 
 nav li a {
-	background-color: #000;
-	font-family:serif;
-	font-weight: bold;
-	font-size: 20px;
-	text-decoration:none;
-	width:120px;
-	padding: -300px;
-	display:inline-block;
-	position:relative;
-	left: 200px;
-	bottom: 0px;
-	color:#CCC;
-	text-align: center;
+  background-color: #000;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  width: 120px;
+  padding: -300px;
+  display: inline-block;
+  position: relative;
+  left: 200px;
+  bottom: 0px;
+  color: #ccc;
+  text-align: center;
 }
-
 
 nav li a:hover {
-	color:grey;
+  color: grey;
 }
 
-
 .social {
-	width: 300px;
-	margin: auto;
-	position: relative;
-	transform: translate(20%, 385px);
+  width: 300px;
+  margin: auto;
+  position: relative;
+  transform: translate(20%, 385px);
 }
 
 .facebook {
-	display:inline-block;
-	border-radius:60%;
-	margin: auto;
-	position: relative;
-	margin-left: 15px;
+  display: inline-block;
+  border-radius: 60%;
+  margin: auto;
+  position: relative;
+  margin-left: 15px;
 }
 
 .youtube {
-	display:inline-block;
-	border-radius:60%;
-	position: relative;
-	margin:auto;
-	margin-left: 15px;
+  display: inline-block;
+  border-radius: 60%;
+  position: relative;
+  margin: auto;
+  margin-left: 15px;
 }
 
 .instagram {
-	display:inline-block;
-	border-radius:60%;
-	position: relative;
-	margin:auto;
-	margin-left: 15px;
+  display: inline-block;
+  border-radius: 60%;
+  position: relative;
+  margin: auto;
+  margin-left: 15px;
 }
 
-
 a :hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .facebook:hover {
-	opacity: 0.8;
+  opacity: 0.8;
 }
 
 .youtube:hover {
-	opacity: 0.8;
+  opacity: 0.8;
 }
 
 .instagram:hover {
-	opacity: 0.8;
+  opacity: 0.8;
 }
-
