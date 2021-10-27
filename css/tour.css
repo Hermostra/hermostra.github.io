@@ -19,14 +19,6 @@ body {
   transform: translate(0%, 45px);
 }
 
-caption {
-  color: #ccc;
-  font-size: 50px;
-  margin: 5px;
-  position: relative;
-  transform: translate(0%, 20px);
-}
-
 .uno {
   margin-left: 20px;
   margin-right: 30px;
@@ -35,8 +27,12 @@ caption {
   margin: 20px 80px;
 }
 
+.dos {
+  margin-left: -400px;
+}
+
 .menu {
-  width: 1000px;
+  width: 900px;
   margin: auto;
   padding: auto;
   position: relative;
