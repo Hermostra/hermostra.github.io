@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+  }
+
+.menu {
+  width:17%;
+}  
+
+.posicion {
+  text-align: center;
+  display: inline-block;
+  padding: 5%;
+}
+
+.merch-posicion {
+  display: inline-block;
+}
+
+.redes {
+  border-radius: 50%;
+  width: 4%;
+  padding: 2%;
+}
+  
+  div h1 {
+    font-family: 'Cinzel', serif;
+    background-color: #000;
+    font-weight: bold;
+    color: #ccc;
+    text-align: center;
+  }
+
+  div h2 {
+    font-family: 'Cinzel', serif;
+    background-color: #000;
+    font-size: 10%;
+    color: #ccc;
+    text-align: center;
+  }
+
+  .prueba {
+    font-size: 1.5vw;
+    text-align: center;
+  }
+
+  footer {
+    color: #ccc;
+    font-family: 'Cinzel', serif;
+
+  }
